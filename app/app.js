@@ -1,16 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Search from './components/search.component';
-import Details from './components/details.component';
+import AppContainer from './containers/app.container';
 
 class App extends React.Component {
   render () {
     return (
-      <div>
-        <Search />
-        <Details title={'Titre de la musique'} />
-      </div>
+      <AppContainer />
     );
   }
 }
